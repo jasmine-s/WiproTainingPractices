@@ -1,0 +1,30 @@
+****************************** Day-3 ******************************
+               **********Morning Session**********
+* Explation about platform Independence feature of JAVA
+   - Bytecode can run on different platforms
+
+* Language Basics
+
+  - Keywords # predefined meanings used for specific use
+             # if it has used for ther purpose it always a compile time error
+
+  - Data Types # To specify different types of data and to manipulate the data correctly
+               # Java Provides 8 types (size - default Value) - byte(1-0), short(2-0), int(4-0),long(8-0L),float(4-0.0f),double(8-0.0d),char(2-u0000)#no negative range(0-65535),boolean(1(bit)-false)
+               # In java the true or false will be decided based on condition or T or F not like 0 false non-zero true
+               # Field values - outside the block/method 
+               # every local variable must be initialized.
+               # 
+  - Variables  # Local variables
+               # Instance Variables (Non-static)-Tied to an Object - scope of an instance is the whole class
+               # Static Variables - tied to a class - shared by all instances of a class
+
+
+              **********Afternoon Session**********
+
+  - Operators
+
+  - Conditional Stmnts
+
+  - Loops
+
+

@@ -1,0 +1,29 @@
+WiproTalentNext Program
+****************************** Day-2 ******************************
+               **********Morning Session**********
+Day 2
+* Command line arguements - passing data to the main method in java(during at execution)
+  - array of values in string format
+  - We cannot pass Integer data but we can recieve them in string format and convert it into integer.
+  - To find Length of arguemts passed we can use "args.length();"
+* Good Programming Practices
+  - Naming Conventions(ClassNames[nouns&starting letter capital], 
+                      variable Names[mixedcase with lowercase, can have _,no.s with specific meaning], 
+                      Method names[mixedcase with nextword Capital])
+                     
+  - Comments ( Block Comments at the top of classes or interfaces,Single Comments can used anywhere )
+  - Number per Line 
+             int h,c;  X X
+             int h; int c; _/_/ 
+  - Do not put different types on same line( int h,a[]; )
+
+
+               **********Afternoon Session**********
+
+* Java API(in C header files/libraries can be called as API's)
+ - framework of Java, is a collection of prewritten methods
+ - Refer Documention - Oracle JAVA SE
+* JAVA BUZZWORDS
+ - simple
+ - OO(encapsulation, inheritance, abstraction, Polymorphism)
+ - Distributed (Libraries for Netwrking)
