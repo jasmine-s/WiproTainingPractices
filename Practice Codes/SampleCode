@@ -1,3 +1,10 @@
 
 
-
+//Package creation in Java(file system hierarchy)
+package svc.cse;
+import java.util.*;
+public class SamplePackegeCreationExample{
+public static void main(String a[]) {
+  System.out.println("Package has been created and ready to use from svc/cse/files");
+  }
+ }
