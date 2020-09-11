@@ -1,0 +1,120 @@
+--------Exception HAndling --------------
+***********Points**************
+In Java, throwable is a super class for all Error classes & exception Classes.
+All subclasses of Error and RuntimeException are called unchecked exceptions.
+
+
+*_*--------------....Class Time....----------------*_*
+IO Operations
+1. Console(moniter, keyboard) IO -> 
+    read i/p -> System.in
+    write o/p -> System.out println & print
+2. File IO
+   FileInputSteam
+   FileOutputStream
+   FileReader
+   FileWriter
+
+1. Console(moniter, keyboard) IO -> 
+Buffer classes are more speed - character Stream
+InputStreamReader coverts byte to characterStream
+--Stream Wrapping--
+BufferReader br  = new BufferReader(new InputStreamReader(System.in));
+Difference btwn Scanner & BufferReader
+Scanner - no buffer & less efficient it can read all primitive data types
+  
+   Memory
+_____________
+|           |
+|   Buffer  |           [    ]
+|           |---------->[Disk]
+|           |<----------[    ]
+|           |
+-------------
+   
+Taking/reading inputs with predefined methods
+BufferReader br  = new BufferReader(new InputStreamReader(System.in));
+read() - reads characters & returns Integer(to make it flexible, data must be typecasted - except Boolean)
+readLine() = reads strings & return strings end will be returns "null"
+Console o/p:
+printStreamClass,System.out  is a byte Stream to write o/p
+
+
+2. File IO
+to handle files we a class File
+File f = new File("D:\WT_Java\ClassNotes\Day10");
+-----
+methods
+----
+public int read() - single character
+public int read(char[] cbuf,int off,int len)
+
+
+
+
+serialization(all(if instance or default)||use transient keyword(if static && instance):store&share) and Deserialization( : JVM INDEPENDENT
+WHY : there arre some applications which works in distrivuted environment
+RMI - Remote Method Invocation
+Socket Programming
+SERIALIZING OBJECTS 
+ObjectInputStream - deserialisation
+ObjectOutputStream - serialisation
+
+If a class implements Searializable(MarkerClass) it has been serialising
+
+What contents of an Object will be Serialised?
+Variables : static, instance
+Methods : static , instance
+
+
+
+___________________
+   J Unit
+__________________
+ILLUSION : 
+****Testing****
+Whether the developer's program is working as per requirments or not.>
+UNIT TESTING  : 
+P is s/w
+p1 - m1-Test(multiple classes/files)-| JUNIT
+p2 - m2-Test(multiple classes/files)-|--------> Required O/P
+p3 - m3-Test(multiple classes/files)_|
+
+JUNIT  - AUTOMATIC UNIT TESTING
+________JUNIT Annotation__________
+- gives additional information to the compiler.
+- @Test
+- All Jnuit methods are public, void
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----Points-----
+* out is not a class of print/println methods
+
+* characters - unicode
+
+* flush()- related to buffers
+memory
+--------flush() :
+|      |_______>to refresh buffer/clear the data flush is used
+|buffer|<----->{Disk}
+|      |
+--------
+
+* A JAR (Java ARchive) is a package file format typically used to aggregate many
+ Java class files and associated metadata and resources (text, images, etc.) into one file for distribution. 
+JAR files are archive files that include a Java-specific manifest file.
