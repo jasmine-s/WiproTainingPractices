@@ -1,0 +1,25 @@
+/**Access the instance variables by using " this " keyword **/
+                            # this used to refer current class Instance variable.
+                            # this used to invoke current Class method (implicitly)
+                            # this() can be used to invoke current Class Constructor.
+                            # this allows to  pass as an argument in the Method call, Constructor call.
+                            # this  return  the current Class Instance from the method
+                            class Follower{   
+                                String name;  
+                                int count_of_follower;  
+                                Follower(String name, int count_of_follower){  
+                                this.name = name;  
+                                this.count_of_follower = count_of_follower;  
+                                }  
+                                void display(){
+                                    System.out.println(name+"  is following Way To Learn IT & Count is increased to "+ count_of_follower);
+                                }  }  
+                                class AddFollowers{  
+                                    public static void main(String args[]){  
+                                         Follower f1 = new Follower("Like",5);  
+                                         Follower f2 = new Follower("Share",100);  
+                                         f1.display();  
+                                        f2.display();  
+                                    }
+                                }  
+/*                        Way_To_Learn_IT                            */
